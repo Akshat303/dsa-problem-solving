@@ -4,48 +4,29 @@
 
 ## Problem
 
-### Input mirror
-
-Now let's write a simple program - the  **Input mirror**. Your program needs to do the following
-
-- Accept an integer input from the console and store it in the variable $N$
-- Accept a string input from the console and store it in the variable $S$
-- Output the integer and the string on the same line separated by a space
-
-Solve the problem in the IDE and then click on click on  **Submit**  to proceed.
-
-### Sample 1:
-Input
-Output
-
-```
-5
-abcde
-```
-
-```
-5 abcde
-```
+_Description not available._
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T20:40:29.843Z  
+**Submitted:** 2026-09-20T20:40:06.503Z  
 
 ```java
-import java.util.Scanner;
-
+// Click on submit to continue
 class Codechef
 {
 	public static void main (String[] args)
 	{
-		Scanner read = new Scanner(System.in);
-		int N = read.nextInt();
-		String S = read.next();
-		System.out.print(N + "\n");
-		System.out.print(S);
+		int a = 5;
+		System.out.println(a);
+		
+		String b = "abcde";
+		System.out.println(b);
+		
+		int[] array = {1, 2, 3};
+		System.out.println(array[0] + " " + array[1] + " " + array[2]);
 	}
 }
 ```
