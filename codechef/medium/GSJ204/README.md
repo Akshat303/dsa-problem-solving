@@ -4,42 +4,30 @@
 
 ## Problem
 
-### How to print output
-
-Cool - so you learnt how to accept integer inputs.
-
-Now let's look at how to convert input into output and display the same.
-
-Most algorithmic programming problems will need you to generate the following types of output
-
-- Integers or Decimal values
-- Strings
-- An array of integers or strings
-
-Go ahead and try in the IDE.
-Click on  **Submit**  to proceed.
+_Description not available._
 
 ## Solution
 
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-20T20:40:04.951Z  
+**Submitted:** 2026-09-20T20:39:51.616Z  
 
 ```java
-// Click on submit to continue
+import java.util.Scanner;
+
 class Codechef
 {
 	public static void main (String[] args)
 	{
-		int a = 5;
-		System.out.println(a);
+		Scanner read = new Scanner(System.in);
 		
-		String b = "abcde";
-		System.out.println(b);
-		
-		int[] array = {1, 2, 3};
-		System.out.println(array[0] + " " + array[1] + " " + array[2]);
+		String A = read.next();
+		String B = read.next();
+		String C = read.next();
+		String D = read.next();
+		String E = read.next();
+		System.out.print(A + " " + B + " " + C + " " + D + " " + E);
 	}
 }
 ```
