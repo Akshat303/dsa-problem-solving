@@ -1,13 +1,15 @@
-import java.util.Scanner;
-
+// Click on submit to continue
 class Codechef
 {
 	public static void main (String[] args)
 	{
-		Scanner read = new Scanner(System.in);
-		int N = read.nextInt();
-		String S = read.next();
-		System.out.print(N + "\n");
-		System.out.print(S);
+		int a = 5;
+		System.out.println(a);
+		
+		String b = "abcde";
+		System.out.println(b);
+		
+		int[] array = {1, 2, 3};
+		System.out.println(array[0] + " " + array[1] + " " + array[2]);
 	}
 }
