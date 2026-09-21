@@ -4,27 +4,16 @@
 
 ## Problem
 
-### Semicolon Placement
-
-A Java developer mistakenly places a semicolon after the class declaration.
-
-```
-class Codechef; {
-    public static void main(String[] args) {
-        System.out.println("Java Rules!");
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T12:19:12.196Z  
+**Submitted:** 2026-09-21T12:18:41.695Z  
 
-```cpp
+```java
 class Codechef {
     public static void main(String[] args) {
 	    // Printing a good morning greeting message
