@@ -4,27 +4,16 @@
 
 ## Problem
 
-### Case Sensitivity
-
-A student writes the following Java code:
-
-```
-class Codechef {
-    Public static void Main(String[] args) {  
-        System.out.println("Java Program");
-    }
-}
-
-```
+_Description not available._
 
 ## Solution
 
-**Language:** C++  
+**Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-09-21T12:25:20.557Z  
+**Submitted:** 2026-09-21T12:23:53.702Z  
 
-```cpp
+```java
 class Codechef {  
 
     public static void main(String[] args) {
