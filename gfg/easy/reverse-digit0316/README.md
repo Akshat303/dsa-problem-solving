@@ -32,7 +32,7 @@ Explanation: By reversing the digits of number, number will change into 54321.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-02T11:32:39.519Z  
+**Submitted:** 2026-10-02T11:32:46.456Z  
 
 ```java
 class Solution {
