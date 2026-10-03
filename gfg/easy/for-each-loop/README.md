@@ -33,7 +33,7 @@ Explanation: Only string is printed in a new line.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-03T13:01:18.683Z  
+**Submitted:** 2026-10-03T13:01:25.577Z  
 
 ```java
 class Solution {
