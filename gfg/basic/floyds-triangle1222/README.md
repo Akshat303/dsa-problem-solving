@@ -39,7 +39,7 @@ Explanation: The triangle has 4 rows, and each row i contains i numbers.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-10-14T09:33:42.517Z  
+**Submitted:** 2026-10-14T09:34:12.650Z  
 
 ```java
 import java.util.Scanner;
