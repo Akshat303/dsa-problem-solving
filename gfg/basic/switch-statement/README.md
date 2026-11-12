@@ -36,7 +36,7 @@ Output: Unknown
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-12T14:00:37.000Z  
+**Submitted:** 2026-11-12T14:00:16.664Z  
 
 ```java
 import java.util.Scanner;
