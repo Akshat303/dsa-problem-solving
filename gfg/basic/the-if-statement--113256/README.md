@@ -31,7 +31,7 @@ Explanation: 101 is greater than 100, so we print Big and Number will be printed
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-12T13:45:29.775Z  
+**Submitted:** 2026-11-12T13:45:42.930Z  
 
 ```java
 import java.util.*;
