@@ -31,7 +31,7 @@ Explanation: We print d e f g after performing the given operations.
 **Language:** Java  
 **Runtime:** N/A  
 **Memory:** N/A  
-**Submitted:** 2026-11-12T14:25:18.972Z  
+**Submitted:** 2026-11-12T14:25:27.129Z  
 
 ```java
 import java.util.Scanner;
