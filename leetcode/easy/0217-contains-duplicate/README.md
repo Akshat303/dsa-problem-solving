@@ -46,23 +46,25 @@ All elements are distinct.
 ## Solution
 
 **Language:** Java  
-**Runtime:** 25 ms (beats 19.76%)  
-**Memory:** 80.8 MB (beats 97.78%)  
-**Submitted:** 2026-11-12T17:13:15.793Z  
+**Runtime:** 18 ms (beats 78.21%)  
+**Memory:** 108 MB (beats 51.52%)  
+**Submitted:** 2026-11-12T17:42:38.502Z  
 
 ```java
 class Solution {
     public boolean containsDuplicate(int[] nums) {
-        // Step 1: Array ko sort karein
-        Arrays.sort(nums);
-        // Step 2: Adjacent elements ko compare karein
-        for (int i = 0; i < nums.length - 1; i++) {
-            if (nums[i] == nums[i + 1]) {
-                return true; // Duplicate mil gaya!
+        HashSet<Integer> set = new HashSet<>();
+
+        for (int num : nums) {
+
+            if (set.contains(num)) {
+                return true;
             }
+
+            set.add(num);
         }
-        
-        return false; // Koi duplicate nahi mila
+
+        return false;
 
     }
 }
